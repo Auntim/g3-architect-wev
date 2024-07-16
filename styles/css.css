@@ -163,3 +163,18 @@ main {
     font-weight: 600;
     margin-top: 7px;
 }
+.sponsor-info{
+    max-width: 500px;
+    margin: 50px auto;
+    text-align: center;
+}
+.sponsor-image{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 80px;
+    justify-content: center;
+    margin-top: 50px;
+}
+.sponsor-image img{
+    filter: grayscale(100%);
+}
